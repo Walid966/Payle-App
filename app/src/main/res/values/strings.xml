@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">مساعد المحلات</string>
+    <string name="posts">البوستات</string>
+    <string name="replies">الردود</string>
+    <string name="profit">المكسب</string>
+    <string name="images">الصور</string>
+    <string name="debts">الديون</string>
+</resources>
