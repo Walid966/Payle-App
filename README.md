@@ -9,7 +9,16 @@
 
 ## كيفية بناء التطبيق
 
-### طريقة 1: باستخدام Android Studio (الأسهل)
+### طريقة 1: باستخدام GitHub Actions (بدون أي برامج على جهازك) - الأفضل
+1. اذهب إلى https://github.com و إنشاء حساب (إذا ما عندكش)
+2. إنشاء repository جديد (مثلاً باسم "Payle-App"
+3. ارفع الملفات كلها من مجلد `f:\payle\Payle` إلى repository ده:
+   - يمكنك استخدام git push أو واجهة GitHub لرفع الملفات يدويًا
+4. بعد رفع الملفات، اذهب إلى علامة **Actions** في repository
+5. ستجد workflow بتسمى "Build Android APK" بيعمل build تلقائيًا
+6. بعد ما يخلص الـ workflow، اضغط عليه و تنزل الـ APK من قسم **Artifacts**
+
+### طريقة 2: باستخدام Android Studio
 1. قم بتحميل وتثبيت Android Studio من https://developer.android.com/studio
 2. افتح Android Studio واختر "Open an Existing Project"
 3. اختر مجلد المشروع: `f:\payle\Payle`
